@@ -1,0 +1,52 @@
+h2{
+    border-style:inset;
+    border-style:outset;
+    border-style: groove;
+    border-style:ridge;
+    border-style:double;
+    border-style:none;
+    border-style:hidden;
+    border-style:solid;
+    border-width: 10px;
+    border-color: #0bbe62;
+
+    border: 2px solid salmon;
+    border-left: 5px solid #0bbe62;
+    border-right: 5px solid #0bbe62;
+    border-top-style: dashed;
+    border-bottom-style:dotted;
+    border-left-style: double;
+    border-color: orange  blue green violet;
+    /* top right bottom and left  */
+}
+strong{
+    height: 50px;
+    width: 50px;
+    background-color: chocolate;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 10px;
+    border-left: 20px;
+    /* top-left  */
+    border-radius: 10px 0px 0px 0px; 
+    /* top-right  */
+    border-radius: 0px 10px 0px 0px; 
+    /* bottom-left  */
+    border-radius: 0px 0px 0px 10px; 
+    /* bottom-right  */
+    border-radius: 0px 0px 10px 0px; 
+    /* all in one  */
+    border-radius: 10px 20px 30px 40px; 
+    /* in percentage  */
+    border-radius: 50%; 
+    /* in hori and vertical  */
+    border-radius: 50px/20px; 
+    
+}
+span{
+    height:50px;
+    width:50px;
+    border-color: red green orange black;
+    border-style: solid;
+    border-width:30px 30px 30px 30px;
+}

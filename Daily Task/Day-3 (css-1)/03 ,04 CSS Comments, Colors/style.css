@@ -1,0 +1,27 @@
+/*
+    hex clolor code
+    last 2 digit for opacity in hex code 
+*/
+h1{
+    color: violet;
+    /* red green blue  */
+    color: #000000;
+    color: #ff0000;
+    color: #00ff00;
+    color: #0000ff;
+    color: #0000ff65;
+    /* color: #ffffff; */
+}
+
+h2{
+    color: (255,255,255);
+    color: (255,0,0);
+    color: (0,255,0);
+    color: (0,0,255);
+    color: (0,0,0);
+}
+h3{
+    color: rgba(255, 0, 255,0.3);
+}
+
+/* color: flat ui  */

@@ -1,0 +1,33 @@
+body{
+    background: url('subhome-ai.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment:fixed;
+ 
+}
+div{
+    height: 400px;
+    background-color: rgba(250, 128, 114, 0.4);
+    background-image: url(back.jpg);
+    background-size: 150px 150px;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position: top right;
+    background-position: bottom right;
+    background-position: bottom left;
+    background-position: center;
+    background-position: top center;
+    background-position: bottom center;
+    background-position: left center;
+    background-position: right center;
+    background-position: right 25px;
+    background-position: bottom center;
+    background-position: center center;
+    background-position: center right;
+    height: 400px;
+    background: rgba(250, 128, 114, 0.4) url('back.jpg') no-repeat center / 100px 100px;
+    /* color, image-url , repeat or no repeat , position , sizing  */
+
+}

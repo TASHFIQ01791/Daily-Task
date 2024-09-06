@@ -1,0 +1,53 @@
+/*
+    . => class selector
+    # => id selector
+    * => universal selector 
+*/
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 300px;
+    height: 200px;
+    background: aqua;
+}
+div p{
+    color: darkorange;
+}
+.text_para{
+    color: red;
+    text-align: right;
+}
+.first_div{
+    background-color: salmon;
+}
+.first_div p{
+    color: white;
+}
+#unique_div{
+    width: 400px;
+    border-radius:20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.last_div, .last_div-2{
+    background: red;
+    text-align: center;
+}
+.change{
+    background-color: green;
+}
+
+.text-bk{
+    background-color:aqua;
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+.first-div{
+    background:blue;
+}
