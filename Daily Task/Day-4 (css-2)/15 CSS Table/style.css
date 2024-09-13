@@ -1,0 +1,38 @@
+table,th,td{
+    border: 1px solid tomato;
+    border-collapse:collapse;
+    padding: 10px 20px;
+}
+table{
+    width: 100%;   
+}
+th{
+    height: 50px;
+    text-align: left;
+    background-color: rgb(59, 125, 205);
+    color: #fff;
+    border: 1px solid rgb(59, 125, 205);
+}
+td{
+    height: 40px;
+    background-color: rgba(160, 160, 154, 0.877);
+    border: 1px solid #654321;
+    vertical-align: bottom;
+    vertical-align: top;
+    vertical-align: middle;
+    vertical-align: center;
+}
+
+tr:hover th,
+tr:hover td
+{
+    background-color: orange;
+}
+
+div{
+    width: 450px;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-x: auto;
+
+}

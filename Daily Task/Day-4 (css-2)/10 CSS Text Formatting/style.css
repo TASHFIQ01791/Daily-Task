@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    color: #ff0982;
+}
+/* text align last  */
+.one{
+    text-align-last:center;
+}
+/* just text align */
+.two{
+    text-align:center;
+}
+/* direction  */
+.three{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+/* text position  */
+.baseline{
+    vertical-align: baseline;
+}
+.text_top{
+    vertical-align: text-top;
+}
+.text_bottom{
+    vertical-align: text-bottom;
+}
+.sub{
+    vertical-align:sub;
+}
+.super{
+    vertical-align:super;
+}
+
+/* text decoration  */
+a{
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration:overline;
+    text-decoration:line-through;
+    text-decoration:underline overline;
+}
+h3{
+    text-transform:lowercase;
+    text-transform:capitalize;
+    text-transform:uppercase;
+    letter-spacing: 20px;
+    text-shadow: 10px 10px red;
+    text-shadow: 10px 10px 10px red;
+    text-shadow: 0px 0px 10px red;
+    text-shadow: 0px 5px 5px #fff;
+}
+/* text indend  */
+p{
+    text-indent:100px;
+    font-size: 15px;
+    line-height:25px;
+    white-space:nowrap;
+    white-space: break-spaces;
+    white-space: pre-line; /* suru theke*/
+    word-spacing: 10px;
+
+}

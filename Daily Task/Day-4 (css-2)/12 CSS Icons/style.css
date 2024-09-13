@@ -1,0 +1,14 @@
+i{
+    color:white;
+    background: blue;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 80px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    color: #fff; /* not working*/
+    background-color: #fff; /* not working*/
+    padding: 45px; /* not working*/
+}

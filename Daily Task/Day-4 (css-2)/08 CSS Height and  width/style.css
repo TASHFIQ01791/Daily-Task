@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 50%;
+}
+body{
+    height: inherit;
+}
+.parent{
+    background: #760ab9;
+    color: #ff7300;
+    width: 92%;
+    margin: 20px auto;  /* majkhane sole asbe */
+    padding: 2%;
+    max-width:1000px; 
+    line-height: 20px;
+    /* min-width:600px; */
+    height:initial;
+}

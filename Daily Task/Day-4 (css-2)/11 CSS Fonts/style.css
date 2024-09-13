@@ -1,0 +1,51 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+h1{
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family:cursive;
+    font-family: fantasy;
+
+    /* custom fonts  */
+    font-family: 'Roboto';
+    font-family: 'Lato',sans-serif;
+
+    /* serif font  */
+    font-family: 'Times New Roman', serif;
+    font-family:'Georgia',serif;
+    
+    /* sans serif  */
+    font-family: 'Arial',sans-serif;
+    font-family:'Verdana',sans-serif;
+
+    /* monospace fornt  */
+    font-family: 'Courier New', monospace;
+    
+    /* fantacy font  */
+    font-family: papyrus;
+
+    /* cusrsive font  */
+    font-family: Brush Script MT;
+}
+
+h2{
+    font-size: 48px;
+    font-size: 3em;
+    font-family: "Poppins", sans-serif;
+    font-family: "Great Vibes", cursive;
+    font-style:italic;
+    font-style: oblique;
+    font-style: normal;
+    font-weight: 200;
+}
+h3{
+    font-size: 28px;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+}
+h4{
+    font-size: 28px;
+    font-variant: small-caps;
+}

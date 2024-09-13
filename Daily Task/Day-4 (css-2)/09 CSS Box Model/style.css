@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 50%;
+}
+body{
+    height: inherit;
+}
+/* .parent{
+    background: #760ab9;
+    color: #ff7300;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid black;
+    float: left;
+} */
+.parent{
+    background: #760ab9;
+    color: #ff7300;
+    width: 25%;
+    margin: 1%;
+    padding: 2%;
+    border: 0.5em solid black;
+    float: left;
+}
+/* 1em=16 px  */

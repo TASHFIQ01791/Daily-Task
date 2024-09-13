@@ -1,0 +1,35 @@
+a{
+    color: black;
+    text-decoration:none;
+}
+a:visited{
+    color: tomato;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+a:active{
+    color: greenyellow;
+    font-size: 25px;
+    font-weight: bold;
+}
+a:focus{
+    color: violet;
+    font-size: 16px;
+}
+
+a.btn{
+    background-color: red;
+    color: #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    font-family: sans-serif;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+a.btn:hover{
+    background-color:#12345611;
+    background-color:rgba(255, 0, 0, 0.2);
+    color: #654321;
+}
