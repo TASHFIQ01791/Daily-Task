@@ -1,0 +1,75 @@
+a:hover{
+    color:orangered;
+    text-decoration: none;
+}
+a:active{
+    background-color: green;
+}
+a:visited{
+    background-color: green;
+}
+a:link{
+    color: white;
+}
+
+
+
+
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: red;
+}
+
+li:nth-child(n){
+    color: blue;
+}
+li:nth-child(2n){
+    color:orange;
+}
+li:nth-child(2n+1){
+    color:green;
+}
+li:nth-child(even){
+    color:red;
+}
+li:nth-child(odd){
+    color: green;
+}
+
+
+
+
+body{
+    background-color: aquamarine;
+    background-image: url(bg.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+body::after{
+    content: "Element";
+    background-image: url(bg.jpg);
+    background-size: 100px 300px;
+}
+body::before{
+    content: "Element";
+    background-image: url(bg.jpg);
+    background-size: 100px 300px;
+}
+
+p::first-line{
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+}
+p::first-letter{
+    color: darkmagenta;
+    font-size: 60px;
+}
+
+p::selection{
+    color: #fff;
+    background-color: green;
+}

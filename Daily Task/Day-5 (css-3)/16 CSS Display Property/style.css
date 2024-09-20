@@ -1,0 +1,13 @@
+h1,p,span,address,button,small{
+    border: 2px solid salmon;
+}
+/* customise them  */
+small{
+    display: block;
+}
+button{
+    display: none;
+}
+h1{
+    display: inline;
+}

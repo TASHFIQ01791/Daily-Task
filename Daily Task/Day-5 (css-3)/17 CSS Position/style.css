@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    /* position: relative;
+    left: 20px; */
+    margin-left: 15px;
+}
+.main{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.sec{
+    background-color: salmon;
+    height: 100px;
+    width: 100px;
+    top: 10px;
+    right: 10px;
+    position: fixed;
+}
+.child{
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    /* right: 0;
+    top: 0; */
+    position: absolute;
+
+    /* make it in center  */
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+.stk{
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}

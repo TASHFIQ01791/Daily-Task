@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index clear</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    #hero_area{
+        background-image: url(bg.jpg);
+        padding: 100px 20px;
+        background-size: cover;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        position: relative;
+        z-index: 2;
+    }
+    #hero_area h2{
+        color: #fff;
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+    #hero_area p{
+        color: #fff;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    #hero_area .btn{
+        background-color: brown;
+        padding: 10px 25px;
+        border-radius: 8px;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.5s;
+    }
+    #hero_area .btn:hover{
+        background-color: blueviolet;
+        font-weight: bold;
+    }
+    .bg{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        opacity: 0.4;
+        z-index: -1;
+    }
+</style>
+<body>
+    <section id="hero_area">
+        <div class="bg"></div>
+        <h2>Hero</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, autem.</p>
+        <a href="" class="btn">Contact Us</a>
+    </section>
+</body>
+</html>

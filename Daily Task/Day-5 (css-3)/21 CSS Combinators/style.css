@@ -1,0 +1,22 @@
+/* normally selection  */
+p{
+    color: blue;
+}
+/* descendent slector  */
+div p{
+    color: red;
+}
+/* child selector  */
+div>p{
+    background-color: skyblue;
+}
+div+small{
+  border: 5px solid salmon;
+}
+div+section{
+  border: 2px solid salmon;
+}
+div~section{
+  background-color: gray;
+  color: white;
+}
